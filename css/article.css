@@ -8,19 +8,13 @@
     justify-content: space-around;
     display: flex;
     flex-direction: row;
+    margin: 2em;
+    box-sizing: border-box;
 }
 .word h2{
     width: 100%;
     display: flex;
     justify-content: center;
-}
-.article1{
-    margin: 2em;
-    box-sizing: border-box;
-}
-.article1 .word{
-    margin: 20px;
-    text-align: justify;
 }
 .article1 h2{
     color: #111;
@@ -28,14 +22,17 @@
     font-weight: 300;    
 }
 .article1 h2 span{
-    color: red;
+    color: #5a0a72;
     font-weight: 700;
 }
 .word p{
     margin-top: 20px;
 }
-.figure1 {
-    max-width: 50%;
+.figure1{
+    width: 75%;
+}
+.figure1 img{
+    width: 100%;
     margin: 20px;
 }
 .figure2 img{
