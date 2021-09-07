@@ -2,7 +2,7 @@
     header,
     header.sticky{
         padding: 10px 20px;
-        background-color:black;
+        background-color:white;
     }
     header nav{
         display: none;
@@ -25,7 +25,7 @@
     }
     header nav li a{
         text-decoration: none;
-        color: #111;
+        color: #5a0a72;
         font-size: 1.6em;
         font-weight:300 ;
 
