@@ -30,20 +30,20 @@
 
     }
     .sticky .logo{
-        color: white;
+        color: #5a0a72);
     }
     .menuToggle{
         position: relative;
         width: 40px;
         height: 40px;
-        background: url(/asset/menu.png);
+        background: url(asset/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
     }
     .menuToggle.active{
-        background: url(/asset/close.png);
+        background: url(asset/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
@@ -54,7 +54,7 @@
     section{
         padding: 30px;
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     .about{
         min-height: 40vh;
@@ -93,10 +93,5 @@
         max-height: fit-content;
         margin: 10px;
     }
-    footer{
-        width: 100%;
-        padding: 20px;
-        margin: 0;
-        font-size: 12px;
-    }
+    
 }
